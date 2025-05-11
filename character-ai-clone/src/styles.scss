@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// ensuite tu peux ajouter ton propre SCSS ici :
+body {
+  font-family: 'Inter', sans-serif;
+}
