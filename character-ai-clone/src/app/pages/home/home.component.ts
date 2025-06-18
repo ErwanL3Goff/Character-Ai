@@ -8,14 +8,16 @@ import { Character } from '../../models/character.model';
 @Component({
   selector: 'app-home',
   standalone: true,
+  styleUrls: ['./home.component.scss'],
   imports: [CommonModule, CharacterCardComponent],
   template: `
-    <div class="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      <app-character-card
-        *ngFor="let character of characters"
-        [character]="character"
-      ></app-character-card>
-    </div>
+<div class="home-grid">
+  <app-character-card
+    *ngFor="let character of characters"
+    [character]="character"
+  ></app-character-card>
+</div>
+
   `,
 })
 export class HomeComponent {
