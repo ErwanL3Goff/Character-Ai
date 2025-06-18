@@ -1,1 +1,7 @@
-<p>character-card works!</p>
+<a [routerLink]="['/chat', character.id]" class="block bg-white rounded-2xl shadow-md hover:shadow-xl transition p-4 text-center text-black no-underline">
+  <div class="character-card">
+    <img [src]="character.avatarUrl" [alt]="character.name" class="character-card__avatar" />
+    <h3 class="character-card__name">{{ character.name }}</h3>
+    <p class="character-card__desc">{{ character.description }}</p>
+  </div>
+</a>

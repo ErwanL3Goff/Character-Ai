@@ -10,25 +10,25 @@ export class CharacterService {
     {
       id: '1',
       name: 'AI Emma',
-      avatarUrl: 'assets/emma.png',
+      avatarUrl: 'assets/emma.webp',
       description: 'Empathetic virtual friend',
     },
     {
       id: '2',
       name: 'AI John',
-      avatarUrl: 'assets/john.png',
+      avatarUrl: 'assets/john.jpeg',
       description: 'Chill conversation buddy',
     },
     {
       id: '3',
       name: 'AI Nova',
-      avatarUrl: 'assets/nova.png',
+      avatarUrl: 'assets/Nova.jpg',
       description: 'Space explorer AI',
     },
     {
       id: '4',
       name: 'AI Zen',
-      avatarUrl: 'assets/zen.png',
+      avatarUrl: 'assets/Zen.webp',
       description: 'Mindfulness mentor',
     },
   ];

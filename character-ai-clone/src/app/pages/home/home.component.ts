@@ -8,8 +8,8 @@ import { Character } from '../../models/character.model';
 @Component({
   selector: 'app-home',
   standalone: true,
-  styleUrls: ['./home.component.scss'],
   imports: [CommonModule, CharacterCardComponent],
+  styleUrls: ['./home.component.scss'],
   template: `
 <div class="home-grid">
   <app-character-card
